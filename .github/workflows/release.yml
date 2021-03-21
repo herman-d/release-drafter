@@ -1,0 +1,14 @@
+on:
+  release:
+    types: # This configuration does not affect the page_build event above
+      - released
+
+name: Release
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Release
+        run: |
+          echo Publish the release
