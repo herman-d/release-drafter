@@ -31,6 +31,7 @@ template: |
   ## [$RESOLVED_VERSION](../../tree/$RESOLVED_VERSION)
 
   [Full Changelog](../../compare/$PREVIOUS_TAG...$RESOLVED_VERSION)
-  ## Changes
+
+  **Merged pull requests:**
 
   $CHANGES
