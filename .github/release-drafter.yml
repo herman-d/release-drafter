@@ -28,9 +28,9 @@ version-resolver:
       - 'patch'
   default: patch
 template: |
-  ## [$RESOLVED_VERSION](tree/$RESOLVED_VERSION)
+  ## [$RESOLVED_VERSION](../../tree/$RESOLVED_VERSION)
 
-  [Full Changelog](/compare/$PREVIOUS_TAG...$RESOLVED_VERSION)
+  [Full Changelog](../../compare/$PREVIOUS_TAG...$RESOLVED_VERSION)
   ## Changes
 
   $CHANGES
